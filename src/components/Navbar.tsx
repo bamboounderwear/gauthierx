@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
-const LOGO_DARK = "https://stunning-trifle-365d50.netlify.app/assets/logo-dark-BiR51GMz.png";
-const LOGO_LIGHT = "https://stunning-trifle-365d50.netlify.app/assets/logo-light-DpoYc6g8.png";
+const LOGO_DARK = "/assets/logo-dark.png";
+const LOGO_LIGHT = "/assets/logo-light.png";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
