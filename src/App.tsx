@@ -12,7 +12,7 @@ function App() {
       <section className="relative h-screen">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&q=80"
+            src="/assets/hero.jpg"
             alt="Landscaping" 
             className="w-full h-full object-cover"
           />
