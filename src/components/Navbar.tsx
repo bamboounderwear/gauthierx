@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import logoDark from '../assets/logo-dark.png';
-import logoLight from '../assets/logo-light.png';
+
+const LOGO_DARK = "https://stunning-trifle-365d50.netlify.app/assets/logo-dark-BiR51GMz.png";
+const LOGO_LIGHT = "https://stunning-trifle-365d50.netlify.app/assets/logo-light-DpoYc6g8.png";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,9 +22,9 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <a href="/" className="transition-colors duration-300">
             <img 
-              src={isScrolled ? logoDark : logoLight}
+              src={isScrolled ? LOGO_DARK : LOGO_LIGHT}
               alt="Les Entretiens Gauthier" 
-              className="h-12 w-auto"
+              className="h-16 w-auto" // Increased from h-12 to h-16
             />
           </a>
 

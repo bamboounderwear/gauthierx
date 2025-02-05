@@ -7,4 +7,10 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  assetsInclude: ['**/*.jpg', '**/*.png'], // Add support for image files
+  resolve: {
+    alias: {
+      '@': '/src', // Optional: Add src alias for cleaner imports
+    },
+  },
 });

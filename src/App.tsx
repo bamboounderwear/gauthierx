@@ -3,9 +3,6 @@ import Navbar from './components/Navbar';
 import Stats from './components/Stats';
 import { ArrowRight } from 'lucide-react';
 
-// Use the Unsplash image as fallback until local asset is added
-const heroImageUrl = "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&q=80";
-
 function App() {
   return (
     <div className="min-h-screen">
@@ -15,7 +12,7 @@ function App() {
       <section className="relative h-screen">
         <div className="absolute inset-0">
           <img 
-            src={heroImageUrl}
+            src="https://i.imgur.com/8ot38EZ.jpeg"
             alt="Landscaping" 
             className="w-full h-full object-cover"
           />
